@@ -14,8 +14,14 @@ class Coche():
 
         self.enMarcha = arrancamos
 
-        if (self.enMarcha) == True:
+        if (self.enMarcha == True):
+            chequeo = self.chequeoInterno()
+
+        if (self.enMarcha  and chequeo):
             return "EL coche esta en marcha"
+        
+        elif (self.enMarcha and chequeo == False):
+            return "EL coche presenta incovenientes"
 
         else: 
             return "EL coche esta estacionado"
@@ -23,6 +29,22 @@ class Coche():
     def estado(self):
 
         print("El coche tiene ", self.__ruedas, " ruedas.", "Un ancho de: ", self.anchoChasis,", y un largo de: ", self.largoChasis)
+
+    
+    def chequeoInterno(self):
+
+        print("Realizando chequeo interno")
+
+        self.gasolina = "ok"
+        self.aceite = "mal"
+        self.puertas = "cerradas"
+
+        if (self.gasolina == "ok" and self.aceite == "ok" and self.puertas == "cerradas"):
+
+            return True
+        
+        else:
+            return False
 
             
         
@@ -32,7 +54,7 @@ class Coche():
 miCoche = Coche()
 
 #Llamamos al Metodo y le pasamos un segundo parametro
-print(miCoche.arrancar(False))
+print(miCoche.arrancar(True))
 
 #Para llamar la propiedad o atributo, ponemos nombre del objeto y luego un punto, luego el nombre de la propiedad
 print(miCoche.largoChasis)
@@ -45,7 +67,7 @@ print("---------------Creamos el segundo objeto-------------------")
 
 miCoche2 = Coche()
 
-print(miCoche2.arrancar(True))
+print(miCoche2.arrancar(False))
 
 print(miCoche2.largoChasis)
 
