@@ -20,7 +20,7 @@ while i == True:
         cantidad.append(acan)
         precio.append(apre)
 
-        print("----- Producto almacenado Correctamente -----")
+        print("----- Producto Almacenado Correctamente -----")
 
     elif x == 2:
 
