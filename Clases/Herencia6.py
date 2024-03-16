@@ -64,6 +64,10 @@ class Electrodomestico():
 
             self.color = "Gris"
 
+        else:
+
+            self.color = "Blanco"
+
     def precioTotal(self):
 
         if self.consumoEnergetico == "A":
