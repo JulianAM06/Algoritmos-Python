@@ -14,7 +14,5 @@ else:
 
     print("La serie de Fibonacci es:", serie)
 
-    # lista = [0, 1, 2, 3, 4, 5, 6]
-    # lista = [55, 80, 98]
-
+   
     

@@ -20,7 +20,7 @@ while i == True:
         cantidad.append(acan)
         precio.append(apre)
 
-        print("----- Producto Almacenado Correctamente -----")
+        print("----- Producto Almacenado Correctamente :)-----")
 
     elif x == 2:
 
@@ -30,7 +30,7 @@ while i == True:
 
         if resultado == True:
 
-            print("----- Producto Encontrado -----")
+            print("----- Producto Encontrado :)-----")
 
             elemento = producto.index(busPro)
 
@@ -38,7 +38,7 @@ while i == True:
             print("Cantidad del Producto: ",cantidad[elemento])
             print("Precio del Producto: ", precio[elemento])
 
-            print("----- Busqueda Finalizada -----")
+            print("----- Busqueda Finalizada :)-----")
             
 
         else:
@@ -54,7 +54,7 @@ while i == True:
 
         if resultado == True:
 
-            print("----- Producto Encontrado -----")
+            print("----- Producto Encontrado :)-----")
 
             elemento = producto.index(busPro)
 
@@ -93,7 +93,7 @@ while i == True:
 
         else:
 
-            print("----- Producto No Encontrado -----")
+            print("----- Producto No Encontrado :(-----")
 
     elif x == 5:
 
