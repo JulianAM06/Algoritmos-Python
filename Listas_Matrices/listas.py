@@ -55,3 +55,19 @@ print(milista2)
 milista3.pop(0) # Para eliminar un elemento especifico por su posicion
 
 print(milista3)
+
+otraLista =[1,2,3,4,5,6,7,8,9,10]
+
+otraLista.reverse() # Para revertir del ultimo al primero
+
+print(otraLista)
+
+otraLista2 =[1,42,33,70,5,6,7,8,229,210]
+
+otraLista2.sort() # Ordenar la lista de menor a mayor
+
+print (otraLista2)
+
+otraLista2.pop(0) # Eliminar el elemento ubicado en el indice 0
+
+print (otraLista2)

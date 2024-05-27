@@ -18,14 +18,18 @@ for i in range(1, x + 1):
     hor = int(input("Ingresa Horas: "))
 
     porcentajeSalario = (sal * PS) + sal
+    print(porcentajeSalario)
+    
     valorHoraInicial = porcentajeSalario / CD
+    print(valorHoraInicial)
 
     valoresHoras.append(valorHoraInicial)
     horasLaborales.append(hor)
 
     total = hor * valorHoraInicial
 
-    totalColaboradores += total 
+    totalColaboradores += total
+    print(totalColaboradores) 
     
 costos = int(input("Ingresa valor de Costos Fijos: "))
 
