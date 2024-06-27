@@ -71,3 +71,47 @@ print (otraLista2)
 otraLista2.pop(0) # Eliminar el elemento ubicado en el indice 0
 
 print (otraLista2)
+
+otralista3 = [1,2,3,4,5,6,7,8,[11,12,13]]
+
+print(otralista3)
+
+print(otralista3[8][0])
+
+otralista3.extend([[20,21,22]])
+
+print(otralista3)
+
+print(otralista3[9][1])
+
+lista5 = [1, 2, 3, 4, 5, 3, 3]
+
+print(list(set(lista5)))
+
+lista = [1, 2, 3, 4, 5]
+
+sublista = lista[1:4]
+
+sublista.reverse()
+
+lista[1:4] = sublista
+
+print(sublista)
+
+frutas = ["manzana", "banana", "cereza", "dátil", "fresa"]
+
+print("".join(frutas))
+
+print([-num for num in range(1, 11)])
+
+lista1 = [1, 2, 3] 
+
+lista2 = ['a', 'b', 'c']
+
+print(list(zip(lista1, lista2)))
+
+print(list(range(1, 6)))
+
+palabras = ["HoLa", "MUNDO", "pYThon"]
+
+print([palabra.upper() for palabra in palabras])
